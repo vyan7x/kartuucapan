@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.google.kartuucapan.MainActivity">
+    <ImageView
+        android:id="@+id/photo_image_view"
+        android:layout_width="547dp"
+        android:layout_height="509dp"
+        android:layout_marginTop="1dp"
+        android:contentDescription="Gambar Background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kartu"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-93dp" />
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="331dp"
+        android:layout_height="48dp"
+        android:fontFamily="sans-serif-light"
+        android:text="SELAMAT ULANG TAHUN"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#660000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <ToggleButton
+        android:id="@+id/toggleSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:checked="false"
+        android:onClick="onToggleClicked"
+        android:textColor="#00ff40"
+        android:textOff="@string/play_music"
+        android:textOn="@string/stop_music"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="461dp" />
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="369dp"
+        android:layout_height="44dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Semoga Panjang Umur"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#00a"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="73dp" />
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="233dp"
+        android:layout_height="34dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Sehat selalu"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#00a"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="117dp" />
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="321dp"
+        android:layout_height="42dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Tercapai semua cita cita"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#00a"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:text="Di kabulkan Do'a nya "
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#00a"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="205dp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="60dp"
+        android:layout_height="24dp"
+        android:text="By "
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#00a"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="461dp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="60dp"
+        android:layout_height="24dp"
+        android:text="@string/fian"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#00a"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+</android.support.constraint.ConstraintLayout>
